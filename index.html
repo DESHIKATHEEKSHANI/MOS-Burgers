@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome Slider</title>
+    <link rel="stylesheet" href="css/welcome.css" />
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slide active">
+        <img src="Images/Sliders/Slide01.png" alt="Slide 1" />
+        <div class="button-container">
+          <button
+            class="login-button"
+            id="cashier-login"
+            onclick="window.location.href='login.html';"
+          >
+            Cashier Login
+          </button>
+          <button
+            class="login-button"
+            id="admin-login"
+            onclick="window.location.href='login.html';"
+          >
+            Admin Login
+          </button>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="Images/Sliders/Slide02.png" alt="Slide 2" />
+      </div>
+
+      <div class="slide">
+        <img src="Images/Sliders/Slide04.png" alt="Slide 4" />
+      </div>
+      <div class="slide">
+        <img src="Images/Sliders/Slide05.png" alt="Slide 5" />
+      </div>
+
+      <div class="nav-buttons">
+        <button class="prev" onclick="showSlide(currentSlide - 1)">&lt;</button>
+        <button class="next" onclick="showSlide(currentSlide + 1)">&gt;</button>
+      </div>
+    </div>
+
+    <script src="js/welcome.js"></script>
+  </body>
+</html>

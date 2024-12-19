@@ -1,0 +1,80 @@
+body {
+  background-color: #f5f5dc; 
+  font-family: "Open Sans", sans-serif;
+  color: #333333; 
+}
+h1,
+h2 {
+  font-family: "Lobster", cursive; 
+  color: #d32f2f; 
+}
+#signOutLink {
+  color: #dc3545; 
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+#signOutLink:hover {
+  text-decoration: underline;
+}
+
+
+button {  
+  background-color: #D32F2F; 
+  color: #FFFFFF; 
+  border: none;  
+  border-radius: 5px;  
+  padding: 10px 15px;  
+  cursor: pointer;  
+  transition: background-color 0.3s; 
+}  
+
+button:hover {  
+  background-color: #C62828; 
+}  
+
+.add-to-cart {  
+  background-color: #FFC107;
+}  
+
+.add-to-cart:hover {  
+  background-color: #ec7017; 
+}
+
+header {
+  background-color: #ffc107;
+}
+.logo-img {
+  width: 300px;
+}
+
+.card {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 70px;
+}
+
+.card-img-top {
+  height: 200px; 
+  object-fit: cover; 
+}
+
+.card-body {
+  flex-grow: 1;
+  text-align: center;
+  padding: 10px;
+}
+
+.card-footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f9fa;
+}
